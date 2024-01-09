@@ -1,8 +1,10 @@
 package org.example;
-import java.util.Scanner;
 
-public class Player {
+public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
+        MasterCode codeMaster = new MasterCode();
+
+        codeMaster.runGame();
     }
 }
