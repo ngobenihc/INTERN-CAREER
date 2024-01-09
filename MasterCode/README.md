@@ -4,4 +4,3 @@ You may use IntelliJ to run your code and tests, but alternatively you can use t
 * First ensure you are in the root directory of the project
 * To compile your code, run: `mvn compile`
 * To run the tests: `mvn test`
-* To run your application: `mvn compile exec:java`
