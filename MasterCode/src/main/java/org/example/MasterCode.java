@@ -7,7 +7,7 @@ public class MasterCode {
 
     private static int digitInCorrectPlace = 0;
     private static int digitInWrongPlace = 0;
-    int numberOfLives = 10;
+    int numberOfLives = 5;
 
     public MasterCode(GeneratorRanNumCode generator, Player player) {
         this.masterMindCode = generator.generateCode();

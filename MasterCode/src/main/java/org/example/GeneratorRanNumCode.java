@@ -3,7 +3,9 @@ package org.example;
 import java.util.Random;
 
 public class GeneratorRanNumCode {
+
     private final Random choseRandNum;
+    
     public GeneratorRanNumCode(){
         this.choseRandNum = new Random();
     }
