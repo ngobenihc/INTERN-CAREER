@@ -18,7 +18,7 @@ public class MainPage {
     static UserInput currentUser;
 
     public static void main(String[] args) {
-        // Sample data for testing
+        // hard coded data
         users.put("lecture", new UserInput("lecture", "Lecture@123", UserRole.LECTURE));
         users.put("student", new UserInput("student", "Student@123", UserRole.STUDENT));
 
@@ -46,14 +46,14 @@ public class MainPage {
 
         Scanner scanner = new Scanner(System.in);
 
-        // User Authentication
+
         currentUser = authenticateUser(scanner);
 
-        // Main Menu
+
         while (true) {
             displayMainMenu();
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
